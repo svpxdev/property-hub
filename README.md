@@ -2,6 +2,8 @@
 
 A short Angular single page application. 
 
+[Live WebPage](https://propertyhub-293821.web.app/home)
+
 # Tech Stack
 
 The project is built on 
@@ -29,8 +31,13 @@ The app uses Angular components and models to provide functionality
 - src
   - App // Main Component
   - Components
-   - AboutComponent
-   - ListbodyComponent
-   - PropertyCardComponent
-   - MapComponent
-   - 
+    - AboutComponent
+    - ListbodyComponent
+    - PropertyCardComponent
+    - MapComponent
+    - SecOptionComponent // Secondary Navbar
+    - CreateComponent
+    
+# Contact 
+
+If you want to know more about the project or want to enquire about anything else related to the project, please feel free to write me an email at sp@suryaveerpatnaik.com
