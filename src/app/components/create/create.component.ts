@@ -31,7 +31,7 @@ export class CreateComponent {
 
   public handleAddressChange(address: any) {
     this.inputAdd = address.formatted_address;
-    this.http.get("https://maps.googleapis.com/maps/api/geocode/json?address="+this.inputAdd+"&key=AIzaSyDew5kKLEn1kNWdJ53ZdJQ7HVM9rZkdSxM")
+    this.http.get("https://maps.googleapis.com/maps/api/geocode/json?address="+this.inputAdd+"&key=API_KEY")
       .subscribe(res=>{
         this.geoData = res['results'][0].geometry.location;
         // console.log(this.geoData);
