@@ -1,0 +1,24 @@
+.bg-key{
+    background-color: #EF8354;
+}
+
+.navbar-font {
+    color: #ffffff !important;
+}
+
+.nav-link{
+    color: #FFFFFF !important;
+    /* font-weight: bold !important; */
+}
+
+.nav-link:hover{
+    color: #4F5D75!important;
+}
+
+.active2{
+    color: red;
+}
+
+.container{
+    padding-left: 0px;
+}

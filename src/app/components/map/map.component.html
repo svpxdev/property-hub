@@ -1,0 +1,12 @@
+<sec-navbar></sec-navbar>
+
+<div class="container mt-5">
+<google-map height="600px" width="100%" [center]="center" [zoom]="zoom">
+    <map-marker
+        *ngFor="let mark of markers | keyvalue"
+        [position] = "mark.value.position"
+        [label] = "mark.value.address"
+    >
+    </map-marker>
+</google-map>
+</div>

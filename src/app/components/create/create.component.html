@@ -1,0 +1,28 @@
+<sec-navbar></sec-navbar>
+
+<section class="Create">
+
+        <div class="container">
+            <form ngNativeValidate (ngSubmit)="postData()">
+                <div class="form-group form-size">
+                    <label class="">Address*</label>
+                    <input class="form-control" ngx-google-places-autocomplete [options]='options' #placesRef="ngx-places" (onAddressChange)="handleAddressChange($event)" [(ngModel)]="inputAdd" name="address" required/>
+                    <label class="mt-3">Area(in sq. mts)*</label>
+                    <input name="Area" type="number" class="form-control" placeholder="Area" [(ngModel)]="inputArea" required/>
+                    <label class="mt-3">Year of Constrution*</label>
+                    <input name="year" type="number" class="form-control" placeholder="Year of Constrution" [(ngModel)]="inputYear" required/>
+                    <label class="mt-3">Description</label>
+                    <textarea cols="12" class="form-control" placeholder="Short description" [(ngModel)]="inputDes" name="description"></textarea>
+                    <button type="submit" class="btn btn-primary mt-3" >Submit</button>
+                    <div *ngIf="message" class="mt-4">
+                        <div [ngClass]="setClasses" role="alert">
+                            {{message}}
+                          </div>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+</section>
+

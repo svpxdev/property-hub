@@ -1,0 +1,20 @@
+.main__{
+    height: 100%;
+}
+.body__bar{
+    height:90%;
+}
+.footer__bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    background-color: #ffe2c1;
+}
+
+.footer__barContent{
+    font-size: 12px;
+    color: #858585;
+    text-align: center;
+    padding-top:5px;
+}

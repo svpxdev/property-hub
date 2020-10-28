@@ -1,0 +1,10 @@
+<div class="content__holder">
+<div class="card mb-3" style="width: 18rem;" *ngFor="let props of listing | keyvalue">
+    <div class="card-body">
+      <h5 class="card-title">{{props.value.address}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{props.value.area}} sq. mts</h6>
+      <p class="card-text">{{props.value.description | slice:0:100 }}</p>
+      <options-sec prop_id={{props.key}} [newData]="setData"></options-sec>
+    </div>
+  </div>
+</div>
