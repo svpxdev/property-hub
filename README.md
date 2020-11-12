@@ -4,6 +4,8 @@ A short Angular single page application.
 
 [Live WebPage](https://propertyhub-293821.web.app/home)
 
+**Google API Changed: Request at sp@suryaveerpatnaik.com for a functional demo.**
+
 # Tech Stack
 
 The project is built on 
